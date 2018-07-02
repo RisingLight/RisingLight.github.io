@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  text-align:center;
+  align-items: center;
+  background-color: black;
+  color: black;
+}
+.bodywonav{margin-top: 10dx;
+  padding-top: 10dx;
+  background-color: black;
+  color: white;
+
+}
+.about{
+  background-color: black;
+  color: white;
+
+}
+.members{
+  color:black;
+}
+  a:visited {
+    color: white;
+  }
+  
+  
+  a:hover {
+    text-decoration: none;
+  }
+a{color: white;
+  text-decoration: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+.social, .footer_text{
+  font-family: 'Maven Pro', sans-serif;
+  color: white;
+  padding: 20px 10px;
+  width: 100%;
+  margin: 0px;
+
+}
+footer{
+
+margin: 0px;
+}
+.social{
+  text-align: center;
+    background-color: black;
+  
+  }
+
+
+
+a:active {
+
+  text-decoration: none;
+}
+
+p{
+  text-align: center;
+}
+
+
+.intro{
+  margin-top: 10dx;
+  padding-top: 10dx;
+  padding-left: 45%;
+      
+}
+.introtxt>h2{
+  display:flex;
+      justify-content: center;
+}
+.members{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .contact>h2{
+      display:flex;
+      justify-content: center;
+    }
+.contact>input{
+      padding: 20px;
+    }
+.contacttxt{
+  padding: 20px;
+  display:flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.form{
+  padding: 20px;
+  display:flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.formemail,formmessage{
+  padding-top: 5dx;
+  margin-top: 5dx;
+}
+
+
+.adarsh{
+padding: 20px;
+}
+
+.abhijit{
+padding: 20px;
+}
+.abhishek{
+padding: 20px;
+
+}
