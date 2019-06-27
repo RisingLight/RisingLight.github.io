@@ -457,13 +457,13 @@ button, .button {
       color: #fff; } }
 
 .button__accent {
-  background-color: #06d19c;
-  border-color: #06d19c;
+  background-color: #FF5722;
+  border-color:#FF5722;
   color: #fff; }
   @media (min-width: 992px) {
     .button__accent:hover {
-      background-color: #05bd8d;
-      border-color: #05bd8d;
+      background-color: #E64A19;
+      border-color: #E64A19;
       color: #fff; } }
 
 .button__delete {
@@ -875,7 +875,7 @@ select {
   background-color: #6C63FF; }
 
 .hero__overlay--gradient {
-  background: linear-gradient(to right, #6C63FF, #4641FF); }
+  background: linear-gradient(to right, #455A64, #212121); }
 
 .hero__overlay--gradientVertical {
   background: linear-gradient(to bottom, #6C63FF, #4641FF); }
