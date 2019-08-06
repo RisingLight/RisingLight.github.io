@@ -427,13 +427,15 @@ button, .button {
   display: inline-block;
   padding: 6pt 20pt;
   line-height: 1.7;
-  border: 1px solid #6C63FF;
-  color: #6C63FF;
+  border: 1px solid  #969696;
+  color: #969696;
   font-weight: 400;
   transition: 0.7s;
   white-space: nowrap;
   cursor: pointer;
   background-color: transparent;
+  box-shadow: 0px 1px 4px -2px #969696;
+  text-shadow: 0px -1px #969696;
   border-radius: 30px;
   margin-bottom: 1.3em;
   transition: 0.7s;
@@ -443,27 +445,24 @@ button, .button {
     outline: 0; }
   @media (min-width: 992px) {
     button:hover, .button:hover {
-      border-color: #463aff;
-      color: #463aff; } }
+      border-color: #969696;
+      color: #969696; } }
 
 .button__primary {
-  background-color: #6C63FF;
-  border-color: #6C63FF;
+  background-image: linear-gradient(#969696,#707070);
   color: #fff; }
   @media (min-width: 992px) {
     .button__primary:hover {
-      background-color: #463aff;
-      border-color: #463aff;
+      background-image: linear-gradient(#969696,#707070);
       color: #fff; } }
 
 .button__accent {
-  background-color: #FF5722;
-  border-color:#FF5722;
+  background-image: linear-gradient(#969696,#707070);
+
   color: #fff; }
   @media (min-width: 992px) {
     .button__accent:hover {
-      background-color: #E64A19;
-      border-color: #E64A19;
+      background-image: linear-gradient(#969696,#707070);
       color: #fff; } }
 
 .button__delete {
@@ -770,12 +769,14 @@ select {
       .navbar__menu li {
         margin-left: 16pt; } }
   .navbar__menu a {
-    color: #000; }
+    color: #fff; }
     @media (min-width: 992px) {
       .navbar__menu a {
-        opacity: 0.75; }
+        opacity: 0.75;
+         }
         .navbar__menu a:hover {
-          opacity: 1; }
+          opacity: 1;
+        }
         .navbar__menu a:after {
           display: block;
           content: '';
@@ -1054,19 +1055,19 @@ select {
   max-width: 60ch; }
 
 .cta {
-  background: linear-gradient(to right, #6C63FF, #4641FF);
+  background: linear-gradient(to left, #333C44, #000000);
   color: #fff;
   padding: 48pt 0;
   text-align: center; }
 
 .cta--reverse {
-  background: linear-gradient(to left, #6C63FF, #4641FF); }
+  background: linear-gradient(to right, #333C44, #000000); }
 
 .cta--plain {
-  background: #6C63FF; }
+  background: #000000; }
 
 .cta--secondary {
-  background: #4641FF; }
+  background: #000000; }
 
 .cta__title {
   color: inherit; }
