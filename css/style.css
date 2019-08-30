@@ -1098,7 +1098,9 @@ select {
   margin: 16pt auto 24pt auto; }
   .cta__sub--center {
     text-align: center; }
-
+   .icon-bar i{
+      margin-right: 30px;
+      }
 .footer {
   background-color: #ffffff;
   padding: 36pt 0; }
@@ -1110,7 +1112,7 @@ select {
   flex-direction: column; }
   @media (min-width: 600px) {
     .footer__inner {
-      flex-direction: row; } }
+      flex-direction: column; } }
 
 .footer__textLogo {
   flex-shrink: 0;
@@ -1128,6 +1130,7 @@ select {
     .footer__textLogo {
       min-width: 25%;
       font-size: 1.325rem; } }
+    
 
 .footer__data {
   -js-display: flex;
@@ -1136,7 +1139,7 @@ select {
   justify-content: space-between;
   padding-top: 0.25rem;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   font-size: 0.9rem; }
   @media (min-width: 992px) {
     .footer__data {
