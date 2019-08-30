@@ -359,6 +359,7 @@ html {
   color: #666;
   line-height: 1.7;
   font-weight: 400;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -422,25 +423,43 @@ a {
   @media (min-width: 992px) {
     .link:hover {
       color: #463aff; } }
+      button, .buttonn {
+        display: inline-block;
+        padding: 6pt 20pt;
+        line-height: 1.7;
+        color: #969696;
+        font-weight: 400;
+        transition: 0.7s;
+        white-space: nowrap;
+        cursor: pointer;
+        background-color: transparent;
+        box-shadow: 0px 1px 4px -2px #969696;
+        text-shadow: 0px -1px #969696;
+        border-radius: 30px;
+        margin-bottom: 1.3em;
+        transition: 0.7s;
+        text-align: center;
+        text-decoration: none; }
 
-button, .button {
-  display: inline-block;
-  padding: 6pt 20pt;
-  line-height: 1.7;
-  border: 1px solid  #969696;
-  color: #969696;
-  font-weight: 400;
-  transition: 0.7s;
-  white-space: nowrap;
-  cursor: pointer;
-  background-color: transparent;
-  box-shadow: 0px 1px 4px -2px #969696;
-  text-shadow: 0px -1px #969696;
-  border-radius: 30px;
-  margin-bottom: 1.3em;
-  transition: 0.7s;
-  text-align: center;
-  text-decoration: none; }
+      button, .button {
+        display: inline-block;
+        padding: 6pt 20pt;
+        line-height: 1.7;
+        border: 1px solid  #969696;
+        color: #969696;
+        font-weight: 400;
+        transition: 0.7s;
+        white-space: nowrap;
+        cursor: pointer;
+        background-color: transparent;
+        box-shadow: 0px 1px 4px -2px #969696;
+        text-shadow: 0px -1px #969696;
+        border-radius: 30px;
+        margin-bottom: 1.3em;
+        transition: 0.7s;
+        text-align: center;
+        text-decoration: none; }
+        
   button:hover, button:focus, .button:hover, .button:focus {
     outline: 0; }
   @media (min-width: 992px) {
@@ -857,7 +876,7 @@ select {
 .hero {
   position: relative;
   width: 100%;
-  background-image: url("../images/evie_default_bg.jpeg");
+  background-image: url("../images/background.jpg");
   box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
   background-size: cover;
   background-position: center center;
@@ -871,7 +890,7 @@ select {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.96;
+  opacity: 0.85;
   z-index: 1;
   background-color: #6C63FF; }
 
@@ -913,7 +932,8 @@ select {
 .hero__text {
   opacity: 0.85;
   line-height: 1.7;
-  text-align: left;
+  text-align: center;
+  align-content: center;
   font-size: 1.1em; }
 
 .hero .button {
@@ -998,7 +1018,7 @@ select {
 
 .step__text {
   max-width: 36ch;
-  text-align: left;
+  text-align: center;
   margin-left: auto;
   margin-right: auto; }
 
