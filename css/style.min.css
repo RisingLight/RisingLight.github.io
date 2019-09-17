@@ -1566,7 +1566,7 @@ select::-ms-expand {
         width: 0;
     }
     100%{
-        width: 100%;
+        width: 120%;
     }
 }
 
